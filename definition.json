@@ -1,0 +1,22 @@
+{
+    "total_random_numbers": 100000,
+    "time_first_event": 1.5,
+    "queues": [
+        {
+            "servers": 2,
+            "capacity": 3,
+            "min_service": 3,
+            "max_service": 4,
+            "min_arrival": 1,
+            "max_arrival": 4
+        },
+        {
+            "servers": 1,
+            "capacity": 5,
+            "min_service": 2,
+            "max_service": 3,
+            "min_arrival": 0,
+            "max_arrival": 0
+        }
+    ]
+}
